@@ -1,4 +1,4 @@
-This is the proof of concept for incorporating blocks of Markdown text into the website, as discussed previously:
+This is the proof of concept for incorporating blocks of Markdown text into the website.
 
 I've included a _pages directory in the Jekyll structure, which has the following markdown files.
 
