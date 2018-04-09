@@ -10,7 +10,8 @@ I've included a _pages directory in the Jekyll structure, which has the followin
 
 These can be easily edited by everyone with Markdown. The changes in the content are reflected in the index.html of each Markdown, in _site dir. I've also added a _blog directory for editing the blog posts in Markdown.
 To accommodate these I've changed the Jekyll structure to the following:
- .
+```shell
+.
 ├── .editorconfig
 ├── .gitignore
 ├── CONTRIBUTING.md
@@ -61,7 +62,7 @@ To accommodate these I've changed the Jekyll structure to the following:
 ├── feed.xml
 ├── index.html
 └── travis.yml
-
+```
 
 A quick guide on how to write text in Markdown effectively can be found here:
 https://blog.ghost.org/markdown/
