@@ -1,9 +1,8 @@
 title: Bugmark
-email: me@eastonlee.com
-#description: > # this means to ignore newlines until "baseurl:"
-description: "This is Easton Lee's personal site where he places his thoughts into words and records his achievements."
+email: andy@r210.com
+description: "Bugmark Information"
 baseurl:  # the subpath of your site, e.g. /blog
-url: https://eastonlee.com # the base hostname & protocol for your site, e.g. http://example.com
+url: https://bugmark.net
 enforce_ssl: eastonlee.com
 twitter_username: easton042
 github_username:  easton042
@@ -31,22 +30,12 @@ permalink: /blog/:year/:month/:day/:title/
 show_downloads: false
 google_analytics: UA-58961104-2
 
-# poole theme, being used, just need to modify font-size in _variables.scss
-#html {
-#  font-size: 14px;
-#  line-height: 1.5;
-#}
-#@media (min-width: 38em) {
-#  html {
-#    font-size: 20px;
-#  }
-#}
 tagline: experientialism
 paginate:            1
 sass:
-  sass_dir:          _sass
+  sass_dir:         _sass
   style:            :compressed
-author: Easton Lee
+author: Bugmark 
 
 analytics_id: UA-58961104-2
 
