@@ -24,8 +24,6 @@ exclude:
 
 safe: false
 
-source: _src
-
 # easton
 permalink: /blog/:year/:month/:day/:title/
 
