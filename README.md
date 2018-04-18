@@ -1,8 +1,10 @@
-This is a Jekyll theme mimicking the Minima, but with BootStrap-4.0.0-alpha.6 employed. 
+# BUGMARK Website
 
-Minima's wrapper is replaced by BootStrap's container, you are free to use BootStrap's grid system and other fantastic features.
+This is a Jekyll website mimicking the Minima theme, but using Bootstrap4.
 
-![The Post Template in Jekyll-BootStrap4-Minima](./screencapture.png)
+Minima's wrapper is replaced by BootStrap's container, in order to use
+Bootstrap's grid system and other fantastic features.
 
 [Demo Site](https://eastonlee.com)# website
-Static HTML for Bugmark.net
+
+[See the live website](http://bugmark.github.io/website/) on GitHub pages.
