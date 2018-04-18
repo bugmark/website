@@ -1,0 +1,58 @@
+title: Bugmark
+email: me@eastonlee.com
+#description: > # this means to ignore newlines until "baseurl:"
+description: "This is Easton Lee's personal site where he places his thoughts into words and records his achievements."
+baseurl:  # the subpath of your site, e.g. /blog
+url: https://eastonlee.com # the base hostname & protocol for your site, e.g. http://example.com
+enforce_ssl: eastonlee.com
+twitter_username: easton042
+github_username:  easton042
+linkedin_username:  eastonlee
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-gist
+  - jekyll-seo-tag
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+safe: false
+
+source: _src
+
+# easton
+permalink: /blog/:year/:month/:day/:title/
+
+# minima theme, deprecated
+show_downloads: false
+google_analytics: UA-58961104-2
+
+# poole theme, being used, just need to modify font-size in _variables.scss
+#html {
+#  font-size: 14px;
+#  line-height: 1.5;
+#}
+#@media (min-width: 38em) {
+#  html {
+#    font-size: 20px;
+#  }
+#}
+tagline: experientialism
+paginate:            1
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+author: Easton Lee
+
+analytics_id: UA-58961104-2
+
+disqus:
+  shortname: eastonlee
+
+excerpt_separator: <!--more-->
