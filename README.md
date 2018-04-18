@@ -7,4 +7,4 @@ Bootstrap's grid system and other fantastic features.
 
 [Demo Site](https://eastonlee.com)# website
 
-[See the live website](http://bugmark.github.io/website/) on GitHub pages.
+See the [live website](http://bugmark.github.io/website/) on GitHub pages.
