@@ -1,12 +1,10 @@
 title: Bugmark
-email: andy@r210.com
+dev_email: andy@r210.com
+email: getbugmark@gmail.com
 description: "Bugmark Information"
-baseurl:  # the subpath of your site, e.g. /blog
 url: https://bugmark.net
-enforce_ssl: eastonlee.com
-twitter_username: easton042
-github_username:  easton042
-linkedin_username:  eastonlee
+twitter_username: getbugmark
+github_username:  bugmark
 
 # Build settings
 markdown: kramdown
@@ -23,23 +21,21 @@ exclude:
 
 safe: false
 
-# easton
 permalink: /blog/:year/:month/:day/:title/
 
-# minima theme, deprecated
 show_downloads: false
-google_analytics: UA-58961104-2
+google_analytics: TBD
 
-tagline: experientialism
+tagline: Software Issue Marketplace
 paginate:            1
 sass:
   sass_dir:         _sass
   style:            :compressed
 author: Bugmark 
 
-analytics_id: UA-58961104-2
+analytics_id: TBD
 
 disqus:
-  shortname: eastonlee
+  shortname: TBD
 
 excerpt_separator: <!--more-->
