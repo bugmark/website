@@ -1,10 +1,16 @@
 <header class="site-header" role="banner">
 
-  <nav class="container navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="container navbar navbar-expand-sm navbar-light bg-light">
 
     <a class="navbar-brand" href="{{ "/" | relative_url}}">{{ site.title | escape }}</a>
 
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" 
+            type="button" 
+            data-toggle="collapse" 
+            data-target="#navbarSupportedContent" 
+            aria-controls="navbarSupportedContent" 
+            aria-expanded="false" 
+            aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
@@ -12,10 +18,11 @@
       <ul class="navbar-nav ml-auto">
         {% assign navigation_pages = site.html_pages | sort: 'navigation_weight' %}
         {% for my_page in navigation_pages %}
-          {% if my_page.title and my_page.title != '404: Page not found' 
-          and my_page.title != 'Blog' and my_page.title != 'Search' %}
+          {% if my_page.hdrnav and my_page.title != '404: Page not found' %}
             <li class="nav-item">
-              <a class="minima-page-link nav-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+              <a class="minima-page-link nav-link" href="{{ my_page.url | relative_url }}">
+                {{ my_page.title | escape }}
+              </a>
             </li>
           {% endif %}
         {% endfor %}

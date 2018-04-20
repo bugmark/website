@@ -2,5 +2,5 @@
 layout: search
 title: Search
 permalink: /search
-navigation_weight: 0
+navigation_weight: -1
 ---
