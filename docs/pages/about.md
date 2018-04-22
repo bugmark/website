@@ -22,8 +22,8 @@ behavior.
 ### Our Team
 
 Bugmark has participation from independent [software contractors][1], [Mozilla
-Innovation][2], the [CHAOSS Project][3], and Incentives Rearch, a consultancy
-that specializes in economics incentive research and metrics.
+Innovation][2], the [CHAOSS Project][3], and Incentives Research, a economics
+consultancy.
 
 [1]: http://mountainviewsmartcontracts.com
 [2]: https://wiki.mozilla.org/Innovation
