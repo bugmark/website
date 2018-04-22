@@ -21,9 +21,13 @@ behavior.
 
 ### Our Team
 
-Bugmark has participation from independant software contractors, Mozilla
-Innovation, the CHAOSS Project, and Incentives Rearch, a consultancy that
-specializes in economics incentive research and metrics.
+Bugmark has participation from independent [software contractors][1], [Mozilla
+Innovation][2], the [CHAOSS Project][3], and Incentives Rearch, a consultancy
+that specializes in economics incentive research and metrics.
+
+[1]: http://mountainviewsmartcontracts.com
+[2]: https://wiki.mozilla.org/Innovation
+[3]: https://www.linuxfoundation.org/blog/chaoss-project-creates-tools-to-analyze-software-development-and-measure-open-source-community-health/
 
 ### Software Assets
 
@@ -37,7 +41,7 @@ To date we have built:
 
 In Q2 2018, our key objectives are to:
 
-1. support researchers with a flexible / extensible framework for experimental exercises
+1. build a flexible research framework for experimental exercises
 2. build and run three exercises with live traders
 3. build our first UI for public release
 4. integrate with one exchange for crypocurrency trading
