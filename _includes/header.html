@@ -1,0 +1,46 @@
+<!-- navigation -->
+<!DOCTYPE html>
+<html>
+<header>
+  <style>
+ulo {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* background-color: #333333; */
+}
+
+lio {
+    float: left;
+}
+
+lio a {
+    display: block;
+    color: #007bff;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+</style>
+<nav class="navbar navbar-light">
+  <div class="container">
+    <a class="navbar-brand h1" href="http://bugmark.net">Bugmark</a>
+    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse show" id="navbarNav">
+      <ulo>
+        {% for page in site.pages %} {% if page.title %}
+        <lio><a href="{{ page.url | prepend: site.baseurl }}">{{  page.title }}</a></lio>
+        {% endif %} {% endfor %}
+        <lio><a href="{{ "/blog" | prepend: site.baseurl }}"> Blog</a></lio>
+
+      </ulo>
+    </div>
+  </div>
+</nav>
+
+</header>
+<!-- //navigation -->
+</html>

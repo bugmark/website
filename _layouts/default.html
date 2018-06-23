@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Meta -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="Bugmark is the fastest way to build issue futures into your App.">
+
+	<!-- Twitter Cards -->
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="https://bugmark.net">
+	<meta name="twitter:title" content="Bugmark">
+	<meta name="twitter:description" content="Bugmark is the fastest way to build issue futures into your App.">
+
+	<!-- Facebook Open Graph -->
+	<meta property="og:locale" content="en_US">
+	<meta property="og:url" content="https://bugmark.net">
+	<meta property="og:site_name" content="Bugmark">
+	<meta property="og:title" content="Bugmark">
+	<meta property="og:description" content="Bugmark is the fastest way to build issue futures into your App.">
+	<meta property="og:type" content="website">
+
+	<!-- Title -->
+	<title>{{ page.title }}</title>
+
+	<!-- Fonts -->
+	<link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="{{ base.url }}/assets/vendor/bootstrap/dist/css/bootstrap.min.css">
+	<script src="{{ base.url | prepend: site.url }}/assets/js/jquery-3.2.1.slim.min.js"></script>
+	<script src="{{ base.url | prepend: site.url }}/assets/js/popper.min.js"></script>
+	<script src="{{ base.url | prepend: site.url }}/assets/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+</head>
+
+
+	{% include header.html %}
+	<!-- main -->
+
+<body>
+	{{ content }}
+</body>
+	<!-- footer -->
+	{% include footer.html %}
+	<!-- //footer -->
+
+	<!-- JS -->
+
+	<!-- <script src="assets/js/jquery-3.2.1.slim.min.js"></script>
+	<script src="assets/js/popper.min.js"></script>
+	<script src="assets/vendor/bootstrap/dist/js/bootstrap.min.js"></script> -->
+
+</html>

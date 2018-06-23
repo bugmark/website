@@ -1,0 +1,59 @@
+title: Bugmark
+authors:
+  snehasi:
+    name: Sneha Sinha
+    display_name: snehasi
+    email: ssinha@mozilla.com
+    twitter: sneha_si42
+    github: snehasi
+  andyl:
+    name: Andy Leak
+    display_name: andyl
+    email: andy@r210.com
+    twitter: akleak
+    github: andyl
+  cynthiapereira:
+    name: Cynthia Pereira
+dev_email: andy@r210.com
+email: getbugmark@gmail.com
+description: "Bugmark Information"
+baseurl: ""
+url: http://localhost:4000
+twitter_username: getbugmark
+github_username:  bugmark
+
+# Build settings
+sass:
+  sass_dir: _sass
+include: ['_pages']
+kramdown:
+  input: GFM
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-gist
+  - jekyll-seo-tag
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+safe: false
+
+permalink: /blog/:year/:month/:day/:title/
+
+show_downloads: false
+google_analytics: TBD
+
+tagline: Software Issue Marketplace
+paginate:            1
+sass:
+  sass_dir:         _sass
+  style:            :compressed
+author: Bugmark
+
+analytics_id: TBD
+
+disqus:
+  shortname: TBD
