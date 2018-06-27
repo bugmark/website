@@ -1,16 +1,18 @@
 ---
 layout: default
 title: Bugmark
+title: Funder
+permalink: /funder/
 ---
 <main role="main">
 
 	<!-- hero -->
 	<section id="hero" class="jumbotron jumbotron-fluid mb-0 text-center">
 		<div class="container">
-			<h1 class="display-4 pt-5 pb-5">The world's fastest way to integrate issue futures into your app</h1>
+			<h1 class="display-4 pt-5 pb-5">Bugmark for Product Managers and Investors</h1>
 			<a class="btn btn-lg btn-outline-primary" href="http://bugmark.net">Bugmark.net</a>
-			<p class="lead mb-0 pt-5">Discover which issues really matter.</p>
-			<p class="lead">Directly pay developers who fix them.</p>
+			<p class="lead mb-0 pt-5">The product manager in this system, in the hands-on manager of the software product - they configure or otherwise control the issue tracker, and other software management systems. The investor is someone who watches market trends and makes investments on issues or buys contracts.</p>
+
 		</div>
 	</section>
 	<!-- //hero -->
@@ -18,10 +20,12 @@ title: Bugmark
 	<section id="about" class="pt-5 pb-5">
 		<div class="container">
 			<div class="section-heading pt-5 pb-5 text-center">
-				<h3 class="display-4">What is Bugmark?</h3>
+				<h4 class="display-4">Why should you invest in Bugmark?</h4>
 			</div>
 			<div class="section-content pb-5">
-				<p>An open-source blockchain market platform to conduct research into the use of incentive algorithms and prediction markets as tooling for community managed software vulnerabilities and issues. <a href="https://mvscorg.github.io/bugmark-design/about/">Find more about Bugmark</a>.</p>
+				<p>Unlike Bug bounty systems : tradable contracts at market prices.</p>
+				<p>Unlike kicktstarter campaigns: finegrained contracts attached to Github issues.</p>
+				<p>Unlike social signals : a positive outlet for priorities and developer support.</p>
 			</div>
 		</div>
 	</section>
@@ -32,40 +36,19 @@ title: Bugmark
 	<section id="how" class="pt-5 pb-5 bg-light">
 		<div class="container">
 			<div class="section-heading pt-5 pb-5 text-center">
-				<a href="{{ site.baseurl  | prepend: site.url }}//developer/">
-					<h2 class="display-4">How does it work - who are you?</h2>
+
+					<h2 class="display-4">How does it work?</h2>
 				</a>
-				<div class="container">
+				<br>
+				<br>
+				<div class="section-content pb-5">
+					<p align="left"> Sign up on Bugmark.net with your Github account.</p>
+					<p align="left"> If you want to report issues, click on issues in the menu and report your issue with required details. Propose a smart cotract: "I will invest $18, if I can collect $20 on July 1 if bug 31337 is unfixed."</p>
+					<p align="left"> Vinod, a developer sees the smart contract proposal. He counter-offers: "I will invest $2 and collect $20 on July 1 if bug 31337 is fixed."</p>
+					<p align="left"> The smart contract is formed automatically. You invest $18.25 and Vinod invests $2.25.</p>
+					<p align="left"> Vinod fixes the bug and the project maintainer closes it. He will receive $20. The oracle that closed the smart contract receives $0.50. You lose the investment, but gain a feature, which has an incredibly higher value.</p>
+				</div>
 
-					<section class="main clearfix">
-
-
-							<select id="cd-dropdown" class="cd-select" onchange="window.location = this.value">
-
-								<option value="-1" selected>Your role</option>
-								<option value="{{ site.baseurl  | prepend: site.url }}//developer/" class="icon-stats-bars">Investor</option>
-								<option value="./developer.html" class="icon-terminal">Developer</option>
-								<option value="1" class="icon-credit-card">Funder</option>
-
-
-							</select>
-
-					</section>
-				</div><!-- /container -->
-
-				<script type="text/javascript">
-
-					$( function() {
-
-						$( '#cd-dropdown' ).dropdown( {
-							gutter : 5,
-							stack : false,
-							slidingIn : 100
-						} );
-
-					});
-
-				</script>
 			</div>
 		</div>
 	</section>
@@ -74,22 +57,24 @@ title: Bugmark
 	<section id="api" class="pt-5 pb-5">
 		<div class="container">
 			<div class="section-heading pt-5 pb-5">
-				<h3 class="display-4">Our APIs</h3>
+				<h3 class="display-4">Liquidity Trades</h3>
 			</div>
-			<div class="section-content row pb-5">
-				<div class="col-12 col-lg-8">
-					<p>Brownie liquorice ice cream tootsie roll biscuit cheesecake icing gummi bears. Icing cupcake powder donut. Cake bear claw pudding jelly danish halvah chocolate bar cheesecake chocolate cake and biscuit cookie liquorice.</p>
-					<ul class="list-unstyled">
-						<li><i class="far fa-check-circle"></i> Cupcake ipsum dolor sit amet tart dessert.</li>
-						<li><i class="far fa-check-circle"></i> Cake cake pudding icing biscuit chocolate bar marzipan muffin.</li>
-						<li><i class="far fa-check-circle"></i> Gummi bears ice cream oat cake caramels topping.</li>
-						<li><i class="far fa-check-circle"></i> Chocolate cake sweet roll halvah tart liquorice.</li>
-					</ul>
-				</div>
-				<div class="col-12 col-lg-4">
 
-				</div>
-			</div>
+      <div class="section-content pb-5">
+        <p align="left"> If you own the fixed side of a contract(paying for a fix), and need to get your money out, you can sell your side of the contract partway through the fix (before the bug is entirely fixed, checked in, reviewed, etc.) - you will probably have
+        to sell at a discount, effectively sponsoring the fix, during the time you held your side of the contract.</p>
+        <p align="left"> If the underlying task of a contract is verified completely, but contract maturation has not been reached, then the person who completed the task can check in, and offer to sell her side of the conntract - this is a no brainer
+          for an investor to purchase, as the task has been verified - the fixer just wants the liquidity right away instead of later - should be easy to arrange and depending on the price this can be fair and amneable to all. </p>
+
+      </div>
+
+		</div>
+	</section>
+	<section id="testimonial" class="pt-5 pb-5 bg-dark">
+		<div class="container">
+
+			<p align="left" style="color: #fff; font-family:courier;">Tradable contracts are important for incentivising partial work, a key feature of Bugmark that futures markets can achieve but pure open source bounty systems have trouble with.</p>
+
 		</div>
 	</section>
 	<!-- //api -->
@@ -216,7 +201,6 @@ title: Bugmark
 	<section id="contribute" class="pt-5 pb-5">
 		<div class="container">
 			<div class="section-heading pt-5 pb-5 text-center">
-				<!-- <a class="btn btn-lg btn-outline-primary" href="http://bugmark.net">Con</a> -->
 				<a href="#" class="btn btn-lg btn-outline-dark">Contribute to Bugmark</a>
 			</div>
 		</div>
