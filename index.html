@@ -1,0 +1,243 @@
+---
+layout: default
+title: Bugmark
+---
+<main role="main">
+
+	<!-- hero -->
+	<section id="hero" class="jumbotron jumbotron-fluid mb-0 text-center">
+		<div class="container">
+			<h1 class="display-4 pt-5 pb-5">The world's fastest way to integrate issue futures into your app</h1>
+			<a class="btn btn-lg btn-outline-primary" href="http://bugmark.net">Bugmark.net</a>
+			<p class="lead mb-0 pt-5">Discover which issues really matter.</p>
+			<p class="lead">Directly pay developers who fix them.</p>
+		</div>
+	</section>
+	<!-- //hero -->
+	<!-- about -->
+	<section id="about" class="pt-5 pb-5">
+		<div class="container">
+			<div class="section-heading pt-5 pb-5 text-center">
+				<h3 class="display-4">What is Bugmark?</h3>
+			</div>
+			<div class="section-content pb-5">
+				<p>An open-source blockchain market platform to conduct research into the use of incentive algorithms and prediction markets as tooling for community managed software vulnerabilities and issues. <a href="https://mvscorg.github.io/bugmark-design/about/">Find more about Bugmark</a>.</p>
+			</div>
+		</div>
+	</section>
+	<!-- //about -->
+	<!-- how -->
+
+
+	<section id="how" class="pt-5 pb-5 bg-light">
+		<div class="container">
+			<div class="section-heading pt-5 pb-5 text-center">
+				<a href="/developer/">
+					<h2 class="display-4">How does it work - who are you?</h2>
+				</a>
+				<div class="container">
+
+					<section class="main clearfix">
+
+
+							<select id="cd-dropdown" class="cd-select" onchange="window.location = this.value">
+
+								<option value="-1" selected>Your role</option>
+								<option value="/funder" class="icon-stats-bars">Investor</option>
+								<option value="/developer" class="icon-terminal">Developer</option>
+								<option value="/funder" class="icon-credit-card">Funder</option>
+
+
+							</select>
+
+					</section>
+				</div><!-- /container -->
+
+				<script type="text/javascript">
+					$( function() {
+
+						$( '#cd-dropdown' ).dropdown( {
+							gutter : 5,
+							stack : false,
+							slidingIn : 100,
+							onOptionSelect : function(opt) {
+								window.location.href = opt.attr("data-value");
+								console.log(opt.attr("data-value"));
+							}
+						} );
+
+					});
+
+				</script>
+			</div>
+		</div>
+	</section>
+	<!-- //how -->
+	<!-- api -->
+	<!-- <section id="api" class="pt-5 pb-5">
+		<div class="container">
+			<div class="section-heading pt-5 pb-5">
+				<h3 class="display-4">Our APIs</h3>
+			</div>
+			<div class="section-content row pb-5">
+				<div class="col-12 col-lg-8">
+					<p>Brownie liquorice ice cream tootsie roll biscuit cheesecake icing gummi bears. Icing cupcake powder donut. Cake bear claw pudding jelly danish halvah chocolate bar cheesecake chocolate cake and biscuit cookie liquorice.</p>
+					<ul class="list-unstyled">
+						<li><i class="far fa-check-circle"></i> Cupcake ipsum dolor sit amet tart dessert.</li>
+						<li><i class="far fa-check-circle"></i> Cake cake pudding icing biscuit chocolate bar marzipan muffin.</li>
+						<li><i class="far fa-check-circle"></i> Gummi bears ice cream oat cake caramels topping.</li>
+						<li><i class="far fa-check-circle"></i> Chocolate cake sweet roll halvah tart liquorice.</li>
+					</ul>
+				</div>
+				<div class="col-12 col-lg-4">
+
+				</div>
+			</div>
+		</div>
+	</section> -->
+	<!-- //api -->
+	<!-- compare -->
+	<section id="api" class="pt-5 pb-5">
+		<div class="container">
+			<div class="section-heading pt-5 pb-5 text-center">
+				<h3 class="display-4">Bugmark vs Other Markets</h3>
+			</div>
+			<div class="section-content pb-5">
+				<p>Descentralized - implemented as an Ethereum Dapp.</p>
+				<p>Extensible by Researches - incentives can be modified and experimented with - easily!</p>
+				<p>Straightforward for Developers - to the extent possible, we'll use garden variety tech and write full test suites.</p>
+				<p>Unobtrusive - no changes should be required to existing project management systems (issue trackers, etc.), owners/managers of projects may participate as much or as little as desired.</p>
+				<p>Pseudononymous - we are after intelligence, and obtaining that info often requires a degree of respect for privacy.</p>
+			</div>
+		</div>
+	</section>
+	<!-- //compare -->
+	<!-- testimonial -->
+	<section id="testimonial" class="pt-5 pb-5 bg-dark">
+		<link rel="shortcut icon" href="../favicon.ico">
+
+		<div class="container">
+			<header class="clearfix">
+				<span>Why Bugmark?</span>
+				<nav>
+					<a href="" class="icon-arrow-left" data-info="Testimonials">Testimonials</a>
+					<a href="" class="icon-arrow-left" data-info="Collaborations">Collaborations</a>
+				</nav>
+			</header>
+			<div class="main">
+				<ul id="cbp-ntaccordion" class="cbp-ntaccordion">
+					<li>
+						<h3 class="cbp-nttrigger">Bugmark reduces feature costs</h3>
+						<div class="cbp-ntcontent">
+							<p>Reduces costs related to adding a new feature, like time and monetary costs.</p>
+							<ul class="cbp-ntsubaccordion">
+								<li>
+									<h4 class="cbp-nttrigger">Price Signals</h4>
+									<div class="cbp-ntcontent">
+										<p> Decision making is easier based on price signals, and the developer can easily decide which features should be given preference to.</p>
+									</div>
+								</li>
+								<li>
+									<h4 class="cbp-nttrigger">Market influence</h4>
+									<div class="cbp-ntcontent">
+										<p> Priorities easily visible and able to be influenced by funders with small time investment through trading.</p>
+									</div>
+								</li>
+								<li>
+									<h4 class="cbp-nttrigger">Market Perspective</h4>
+									<div class="cbp-ntcontent">
+										<p>Work on features, which are also directed by market / users, rather than the managers who are mostly not the target audience for the product.</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<h3 class="cbp-nttrigger">Bugmark reduces recruitment cost</h3>
+						<div class="cbp-ntcontent">
+							<p>In a way it is crowdsourced online, so it saves the time and effort invested in finding a new dev.</p>
+							<ul class="cbp-ntsubaccordion">
+								<li>
+									<h4 class="cbp-nttrigger">Market competition</h4>
+									<div class="cbp-ntcontent">
+										<p>Since it's a market there will be competition - project manager can get better costs with us than by approaching a dev individually where the developer may have an upper hand in deciding the costs/compensation.</p>
+									</div>
+								</li>
+
+							</ul>
+						</div>
+					</li>
+					<li>
+						<h3 class="cbp-nttrigger">Bugmark reduces time to fix issues</h3>
+						<div class="cbp-ntcontent">
+							<p>Since each offer has an expiry date, the developer accepts issues based on fcfs basis, further the contracts involve a maturity period, and the developer would only accept new positions/partial work which she/he can aim to get resolved in the given time period.</p>
+							<ul class="cbp-ntsubaccordion">
+								<li>
+									<h4 class="cbp-nttrigger">Task management</h4>
+									<div class="cbp-ntcontent">
+										<p>Big projects involve a lot of tasks, investment prevents a developer from taking more issues than she/he can be accountable for. This ultimately leads to more issues getting resolved instead of partial unfixed work.</p>
+									</div>
+								</li>
+								<li>
+									<h4 class="cbp-nttrigger">Partial Work</h4>
+									<div class="cbp-ntcontent">
+										<p>Collaborative work is incentivised, this supports an efficient open source culture.</p>
+									</div>
+								</li>
+								<li>
+									<h4 class="cbp-nttrigger">Information sharing</h4>
+									<div class="cbp-ntcontent">
+										<p>Bugmark supports an open culture of sharing of information datasets for academicians, and open source collaboration.</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</li>
+
+
+				</ul>
+			</div>
+		</div>
+
+
+		<script>
+			$( function() {
+				/*
+				- how to call the plugin:
+				$( selector ).cbpNTAccordion( [options] );
+				- destroy:
+				$( selector ).cbpNTAccordion( 'destroy' );
+				*/
+
+				$( '#cbp-ntaccordion' ).cbpNTAccordion();
+
+			} );
+		</script>
+	</section>
+	<!-- //testimonial -->
+	<!-- contribute -->
+	<section id="contribute" class="pt-5 pb-5">
+		<div class="container">
+			<div class="section-heading pt-5 pb-5 text-center">
+				<!-- <a class="btn btn-lg btn-outline-primary" href="http://bugmark.net">Con</a> -->
+				<a href="https://github.com/bugmark" class="btn btn-lg btn-outline-dark">Contribute to Bugmark</a>
+			</div>
+		</div>
+	</section>
+	<!-- //contribute -->
+	<!-- call-to-action -->
+	<section id="call-to-action" class="pt-5 pb-5 bg-dark">
+		<div class="container">
+			<div class="section-content row">
+				<div class="newsletter col-12 col-lg-6 text-center">
+					<a href="#"><h5>Sign up for monthly newsleletter</h3></a>
+				</div>
+				<div class="policy col-12 col-lg-6 text-center">
+					<a href="#"><h5>Terms and Conditions</h3></a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- //call-to-action -->
+</main>
+<!-- //main -->

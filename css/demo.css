@@ -1,0 +1,88 @@
+/* General Demo Style */
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+*,
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.clearfix {
+	*zoom: 1;
+}
+
+
+.container {
+	width: 100%;
+	position: relative;
+}
+
+.main,
+.container > header {
+	width: 90%;
+	max-width: 960px;
+	margin: 0 auto;
+	position: relative;
+	padding: 0 10px;
+}
+
+.container > header {
+	padding: 40px 10px 50px;
+	border-bottom: 1px solid #ddd;
+	box-shadow: 0 1px rgba(255,255,255,0.8);
+	margin-bottom: 30px;
+}
+
+.container > header h1 {
+	font-size: 34px;
+	line-height: 38px;
+	margin: 0;
+	font-weight: 700;
+	color: #333;
+	float: left;
+}
+
+.container > header h1 span {
+	display: block;
+	font-size: 20px;
+	font-weight: 300;
+}
+
+.fleft {
+	float: left;
+	width: 49%;
+	min-width: 300px;
+}
+
+.main p {
+	color: #AAA;
+	padding: 20px 30px 0px 0px;
+	font-size: 20px;
+	line-height: 34px;
+	font-weight: 300;
+	text-shadow: 0 1px 1px rgba(255, 255, 255, 0.8);
+}
+
+
+@media screen and (max-width: 730px){
+	.fleft {
+		width: 100%;
+		float: none;
+		text-align: center;
+	}
+}

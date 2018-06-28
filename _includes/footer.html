@@ -1,0 +1,28 @@
+<footer class="footer pt-5 pb-5">
+  <div class="container">
+    <div class="mx-auto text-center">
+      <div class="social-area mx-auto text-center">
+        <span class="text-muted">
+          <a href="mailto:{{ site.dev_email }}">Email Us</a>
+        </span>
+      </div>
+      <div class="social-area mx-auto text-center">
+          {% if site.github_username %}
+        <a class="social-item">
+
+
+            {% include icon/github.html username=site.github_username %}
+          </a>
+          {% endif %}
+
+          {% if site.twitter_username %}
+          <a class="social-item">
+            {% include icon/twitter.html username=site.twitter_username %}
+          </a>
+          {% endif %}
+
+
+    </div>
+  </div>
+</div>
+</footer>
