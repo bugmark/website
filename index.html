@@ -32,7 +32,7 @@ title: Bugmark
 	<section id="how" class="pt-5 pb-5 bg-light">
 		<div class="container">
 			<div class="section-heading pt-5 pb-5 text-center">
-				<a href="{{ site.baseurl  | prepend: site.url }}//developer/">
+				<a href="/developer/">
 					<h2 class="display-4">How does it work - who are you?</h2>
 				</a>
 				<div class="container">
@@ -43,9 +43,9 @@ title: Bugmark
 							<select id="cd-dropdown" class="cd-select" onchange="window.location = this.value">
 
 								<option value="-1" selected>Your role</option>
-								<option value="{{ site.baseurl  | prepend: site.url }}//developer/" class="icon-stats-bars">Investor</option>
-								<option value="./developer.html" class="icon-terminal">Developer</option>
-								<option value="1" class="icon-credit-card">Funder</option>
+								<option value="/funder" class="icon-stats-bars">Investor</option>
+								<option value="/developer" class="icon-terminal">Developer</option>
+								<option value="/funder" class="icon-credit-card">Funder</option>
 
 
 							</select>
@@ -54,13 +54,16 @@ title: Bugmark
 				</div><!-- /container -->
 
 				<script type="text/javascript">
-
 					$( function() {
 
 						$( '#cd-dropdown' ).dropdown( {
 							gutter : 5,
 							stack : false,
-							slidingIn : 100
+							slidingIn : 100,
+							onOptionSelect : function(opt) {
+								window.location.href = opt.attr("data-value");
+								console.log(opt.attr("data-value"));
+							}
 						} );
 
 					});
@@ -71,7 +74,7 @@ title: Bugmark
 	</section>
 	<!-- //how -->
 	<!-- api -->
-	<section id="api" class="pt-5 pb-5">
+	<!-- <section id="api" class="pt-5 pb-5">
 		<div class="container">
 			<div class="section-heading pt-5 pb-5">
 				<h3 class="display-4">Our APIs</h3>
@@ -91,10 +94,10 @@ title: Bugmark
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> -->
 	<!-- //api -->
 	<!-- compare -->
-	<section id="compare" class="pt-5 pb-5 bg-light">
+	<section id="api" class="pt-5 pb-5">
 		<div class="container">
 			<div class="section-heading pt-5 pb-5 text-center">
 				<h3 class="display-4">Bugmark vs Other Markets</h3>
@@ -217,7 +220,7 @@ title: Bugmark
 		<div class="container">
 			<div class="section-heading pt-5 pb-5 text-center">
 				<!-- <a class="btn btn-lg btn-outline-primary" href="http://bugmark.net">Con</a> -->
-				<a href="#" class="btn btn-lg btn-outline-dark">Contribute to Bugmark</a>
+				<a href="https://github.com/bugmark" class="btn btn-lg btn-outline-dark">Contribute to Bugmark</a>
 			</div>
 		</div>
 	</section>
