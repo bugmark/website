@@ -1,8 +1,11 @@
 <header class="site-header" role="banner">
 
-  <nav class="container navbar navbar-expand-sm navbar-light bg-light">
+  <nav class="container navbar navbar-expand-sm navbar-light bg-light" style="padding-top: 2px; padding-bottom: 0;">
 
-    <a class="navbar-brand" href="{{ "/" | relative_url}}">{{ site.title | escape }}</a>
+    <a class="navbar-brand" href="{{ "/" | relative_url}}">
+      <img src="/public/icons/logo_trans_8.png" style="position: relative; top: -1px; height: 40px; padding: 0;"/>
+      {{ site.title | escape }}
+    </a>
 
     <button class="navbar-toggler" 
             type="button" 
