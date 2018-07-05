@@ -11,11 +11,12 @@ navigation_weight: 1
 Bugmark open-source code is at [http://github.com/bugmark][0].
 
 - [Exchange](https://github.com/bugmark/exchange)
-- [Command-Line Client](https://github.com/bugmark/bmx_cl_ruby)
 - [Test-Bench](https://github.com/bugmark/test_bench)
-- [Bots](https://github.com/bugmark/bots)
+- [Command-Line Client](https://github.com/bugmark/bmx_cl_ruby)
+- [Bots](https://github.com/bugmark/bmx_bots)
+- [Issue Oracle](https://github.com/bugmark/iora)
+- [Payment Processor](https://github.com/bugmark/paypro)
 - [Website](https://github.com/bugmark/website)
-- [Documentation](https://github.com/bugmark/bugmark_docs)
 
 ### Presentations, Talks, Papers
 
