@@ -18,7 +18,7 @@ dev_email: andy@r210.com
 email: getbugmark@gmail.com
 description: "Bugmark Information"
 root: /octo-5
-baseurl: /website
+baseurl: ""
 url: https://snehasi.github.io
 twitter_username: getbugmark
 github_username:  bugmark
