@@ -43,9 +43,9 @@ title: Bugmark
 							<select id="cd-dropdown" class="cd-select" onchange="window.location = this.value">
 
 								<option value="-1" selected>Your role</option>
-								<option value="/funder" class="icon-stats-bars">Investor</option>
-								<option value="/developer" class="icon-terminal">Developer</option>
-								<option value="/funder" class="icon-credit-card">Funder</option>
+								<option value="{{ /funder | prepend: site.baseurl }}" class="icon-stats-bars">Investor</option>
+								<option value="{{ /developer | prepend: site.baseurl }}" class="icon-terminal">Developer</option>
+								<option value="{{ /funder | prepend: site.baseurl }}" class="icon-credit-card">Funder</option>
 
 
 							</select>
