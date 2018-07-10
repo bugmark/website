@@ -21,6 +21,7 @@ baseurl: ""
 url: https://snehasi.github.io/website
 twitter_username: getbugmark
 github_username:  bugmark
+livereload: true
 
 # Build settings
 sass:
