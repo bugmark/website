@@ -1,5 +1,3 @@
-# Jekyll Structure
-
 Based on [these specifications](https://github.com/bugmark/website/issues/3) and the [LoFi mockup](https://github.com/bugmark/website/issues/2), this structure was planned:
 
 ```shell
