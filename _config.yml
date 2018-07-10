@@ -17,8 +17,8 @@ authors:
 dev_email: andy@r210.com
 email: getbugmark@gmail.com
 description: "Bugmark Information"
-baseurl: ""
-url: http://localhost:4000
+baseurl: /website
+url: http://snehasi.github.io
 twitter_username: getbugmark
 github_username:  bugmark
 
