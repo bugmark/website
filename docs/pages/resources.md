@@ -24,7 +24,8 @@ See the [Awesome Bugmark][1] repo.
 
 ### Weekly Hangouts
 
-- [Research Hangout][rh] - Weds 7am Pacific
+- [Developer Hangout][dh] - Mon 7am Pacific
+- [Research Hangout][rh] - Wed 7am Pacific
 - Project Hangout - Thus 12:30pm Pacifc (contact [Andy][ph] for invite) 
 
 ### Bugmark Community
@@ -39,5 +40,6 @@ See the [Awesome Bugmark][1] repo.
 [3]: https://groups.google.com/forum/#!forum/bugmark_dev
 [4]: https://twitter.com/getbugmark
 
+[dh]: https://hangouts.google.com/hangouts/_/calendar/ODRqbGNnN3A1dXMyYmVmbXFiODJlZGh0aG9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ.40871t74074gvht4lvpa8c5a38?authuser=0
 [rh]: https://hangouts.google.com/hangouts/_/calendar/ODRqbGNnN3A1dXMyYmVmbXFiODJlZGh0aG9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ.5rj8ua5bjqdoos5qi57tcdin7s?authuser=0
 [ph]: mailto:andy@r210.com
