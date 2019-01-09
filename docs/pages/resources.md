@@ -36,7 +36,7 @@ See the [Awesome Bugmark][1] repo.
 
 [0]: https://github.com/bugmark
 [1]: https://github.com/bugmark/awesome-bugmark
-[2]: https://slackin.bugmark.plus
+[2]: https://slackin.bugmark.tech
 [3]: https://groups.google.com/forum/#!forum/bugmark_dev
 [4]: https://twitter.com/getbugmark
 
