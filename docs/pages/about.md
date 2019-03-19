@@ -44,14 +44,6 @@ To date we have built:
 - a framework for experimental trading applications
 - an ability to trade in digital and fiat currencies
 
-### Q3 Objectives
-
-In Q3 2018, our key objectives are to:
-
-1. begin trading across a half-dozen internal repos
-2. develop relationships with our first corporate partners
-3. build a customer-communications infrastructure
-
 ### Join Us!
 
 We are looking for project contributors and participants!  
